@@ -3,21 +3,17 @@ h1 {
   color: blue;
 }
 
-p {
-  color: red
-}
-
 body {
   background-color: black;
 }
 h2{
   color:green;
 }
-g2{
+.f{
 color: pink;
 }
 body{
-  border-style:dotted;
+  border-style:;
   border-width: thin;
 }
 strong{
@@ -25,45 +21,54 @@ strong{
 }
 ul{
   color:yellow;
+
+margin: 0;
+  padding: 0;
 }
-li a {
-  display: block;
-  width: 60px;
+
+nav {
+  margin: 50px;
 }
-ul{
+
+ul {
+  overflow: auto;
   list-style-type: none;
-      margin: 0;
-      padding: 0;
-      width: 200px;
-      background-color: #f1f1f1;
-      border: 1px solid #555;
-  }
-
-  li a {
-      display: block;
-      color: #000;
-      padding: 8px 16px;
-      text-decoration: none;
-  }
-
-  li {
-      text-align: center;
-      border-bottom: 1px solid #555;
-  }
-
-  li:last-child {
-      border-bottom: none;
-  }
-
-  li a.active {
-      background-color: #4CAF50;
-      color: white;
-  }
-
-  li a:hover:not(.active) {
-      background-color: #555;
-      color: white;
 }
-li a{
-display: block;
+
+li {
+  height: 25px;
+  float: left;
+  margin-right: 0px;
+  border-right: 1px solid #aaa;
+  padding: 0 20px;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  text-decoration: none;
+  color: red;
+  font: 15px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+li a:hover {
+  color: blue;
+}
+
+li.active a {
+  font-weight: bold;
+  color: black;
+}
+
+p{
+  color:pink;
 }
